@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>JOB APPLICATION:</h2>
+<form>
+<!-- NAME -->
+<label for="name">Name of applicant:</label>
+<input type="text" id="name" placeholder="Enter your name..." required>
+<br><br>
+<!-- EMAIL -->
+<label for="Email">E-mail of applicant:</label>
+<input type="email" id="Email">
+<br><br>
+<!-- Phone -->
+<label for="Phone">Phone:</label>
+<input type="tel" id="Phone">
+<br><br>
+<!-- resume -->
+<label for="Resume">Resume:</label>
+<input type="file" id="Resume">
+<br><br>
+<!-- EXPERINCE -->
+<label for="Experience">Experience:</label>
+<input type="number"  id="Experience" min="0" max="20">
+<br><br>
+<!-- SKILLS -->
+
+    <label>Skills</label>
+  <br>
+  <input type="checkbox"  id="cb1" name="HTML">
+<label for="cb1">HTML</label>
+<br>
+<input type="checkbox"  id="cb2" name="CSS">
+<label for="cb2">CSS</label>
+<br>
+<input type="checkbox"  id="cb3" name="JAVA SCRIPT">
+<label for="cb3">JAVA SCRIPT</label>
+
+<br>
+<!-- DROP DOWN -->
+<label for="cb2">Heighest Education:</label>
+<select name="education" id="education" multiple>
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+    <option value="d">D</option>
+    <option value="e">E</option>
+</select>
+
+<br>
+<br>
+<!-- radio  ADD name attribute with all same name in the input tag to choose only one-->
+<label >Aviability:</label>
+<input type="radio" id="FT" name="FT" >
+<label for="FT">Full Time</label>
+<input type="radio" id="PT" name="FT">
+<label for="PT">Part Time</label>
+<br><br>
+
+<!-- ADD ON -->
+<label for="commm">Additional Comments:</label><br>
+<textarea name="ta1" id="ta1" cols="35" rows="10"></textarea>
+<!-- BUTTON -->
+<br>
+<br>
+<button type="submit">Submit</button>
+    </form>
+</body>
+</html>
